@@ -1,10 +1,9 @@
 import React from 'react';
-import Application from '../Application';
+import Application from './Application';
 
 const Applications = (props) => (
     <div>
         <h3>Your Applications</h3>
-        {console.log('Applications ', props.applications)}
         {
             props.applications.map((application, index) => (
                 <Application

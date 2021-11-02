@@ -5,6 +5,7 @@ const Header = () => (
     <header>
         <h1>Banking App</h1>
         <NavLink to="/Dashboard" activeClassName="is-active">Dashboard</NavLink>
+        <NavLink to="/new-application" activeClassName="is-active">New Application</NavLink>
     </header>
 );
 

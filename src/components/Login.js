@@ -9,6 +9,8 @@ class Login extends React.Component {
     // TODO: ADD PROPER AUTHENTICATION HERE!
 
     handleSignIn = () => {
+        this.props.history.push('/dashboard');
+
         console.log("handle Sign in")
         this.setState(() =>({
             authenticated: true
