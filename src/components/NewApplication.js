@@ -1,5 +1,4 @@
 import React from 'react';
-import { Redirect } from 'react-router';
 
 class NewApplication extends React.Component {
     state = {
@@ -25,7 +24,7 @@ class NewApplication extends React.Component {
                 
                 if(name) {
                     // applications.push(name)
-                    
+
                     localStorage.setItem('applications', name);
                     console.log('localStorage updated! with ', name);
                     this.props.history.push('/dashboard');

@@ -1,6 +1,5 @@
 import React from 'react';
 import Applications from './Applications';
-import AddApplication from './AddApplication';
 
 class Dashboard extends React.Component {
     state = {
@@ -30,8 +29,6 @@ class Dashboard extends React.Component {
         return (
             <div>
                 <Applications applications = {this.state.applications}/>
-                {/* <button onClick={this.props.history.push('/')}>New Application</button> */}
-                <AddApplication/>
             </div>
         )
     }
