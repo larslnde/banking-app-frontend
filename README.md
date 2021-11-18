@@ -1,6 +1,6 @@
-# Banking App project for Cognizant - Lars-Erik Lunde
+# Banking App project for Cognizant Academy - L. Lunde.
 
-This project is part of my Academy plan at Cognizant.
+This frontend project is part of my Academy plan at Cognizant.
 
 ## Getting Started with Create React App
 
