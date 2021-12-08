@@ -1,7 +1,3 @@
-# Banking App project for Cognizant Academy - L. Lunde.
-
-This frontend project is part of my Academy plan at Cognizant.
-
 ## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
